@@ -1,0 +1,104 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{classic}
+\moderncvcolor{red}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+\usepackage[scale=0.9]{geometry}
+
+
+
+% PERSONAL INFORMATION
+%-------------------------------
+\name{Narendra}{Jhabakh}
+
+\phone[mobile]{+1~(412)~980~3594}
+\email{njhabakh@gmail.com,njhabakh@andrew.cmu.edu} \homepage{https://github.com/njhabakh}            %-------------------------------
+
+
+\begin{document}
+
+\makecvtitle
+\vspace{-0.52 in}
+
+% EDUCATION
+%-------------------------------
+\section{Education}
+
+\cventry{Expected May 2016}{Dual Master of Science}{Carnegie Mellon University}{Pittsburgh, PA}{\textit{CQPA : 3.84}}{Engineering and Technology Innovation Management (EPP) , Advanced Infrastructure Systems (CEE)\\\textit{ $\circ$ Graduate Teaching Assistant - 12:421 Engineering Economics}\\\textit{ $\circ$ Relevant Coursework- Risk Management, Machine Learning, Real Options. }
+}\\
+
+\cventry{May 2014}{Bachelor of Technology}{Indian Institute of Technology}{Bhubaneswar}{\textit{CGPA : 8.67}}{Civil and Environmental Engineering}
+%-------------------------------
+
+
+% WORK EXPERIENCE
+%-------------------------------
+\section{Work Experience}
+
+\cventry{Summer '15}{Market Analyst}{Saros Intelligence}{Washington DC}{}{\newline{}\begin{itemize}%
+\item Built a model that implements Technology diffusion for IoT in the Energy Sector.
+The Model uses Regression for prediction and the predicted values are fit to a sigmoid function.
+	\item The most relevant \textbf{Dependent Variables} were found out based on predicted results, using a loss function.
+\end{itemize}}}
+
+\cventry{Summer '15}{Research Assistant}{Carnegie Mellon University}{Pittsburgh}{PA}{\newline{}%
+\begin{itemize}%
+\item Built a model that \textbf{predicts Power Consumption} based on time of day and outdoor air-temperature.
+\item \textbf{Anomaly Detection} was done based on a threshold calculated using \textbf{k-fold cross-validation} on the error(RSS).
+\item Implemented a technique for appliance characterization by analysing the frequency  of Light intensity using \textbf{Short Time Fourier Transform}, under the domain of  \textbf{Non-Intrusive Load Monitoring (NILM)}.
+\end{itemize}}
+
+
+\cventry{Summer '13}{Research Intern}{Tohoku University}{Sendai-ku}{Japan}{\newline{}\begin{itemize}%
+	\item Created response curves from accelerometer data pertaining to each floor of the test building. Load vs Displacement curves for each floor of test building as an effective Load vs Deflection curve were analysed  using the Capacity Spectrum Method.
+\end{itemize}}}
+%-------------------------------
+
+% PROJECTS
+%-------------------------------
+\section{Projects}
+\cventry{Oct '15 - Present}{Image Classification}{Carnegie Mellon University}{Pittsburgh}{\codeml{c}}{\newline{}\begin{itemize}%
+\item The project aims at \textbf{classifying images} from the CIFAR-10 dataset using concepts from Machine learning.
+    \item Features were extracted using techniques like HOG and SIFT. These features were classified using algorithms including \textbf{Naive Bayes, Bag of Words with K-Means, Logistic Regression} and \textbf{Support Vector Machines}.
+    \item The accuracy of prediction was improved using \textbf{Boosting} and \textbf{Voting} methods.
+\end{itemize}}}
+
+\cventry{Sept '15 - Nov '15}{Supply Chain Risk}{Carnegie Mellon University}{Pittsburgh}{\Reportrisk{R}}{\newline{}\begin{itemize}%
+    \item Modelled a network using \textit{BISZSIMZ SIP}(Strategic Inventory Planning) which calculates the \textbf{Safety Stock} to be held at the various stages in the Supply Chain. The model takes \textbf{Lead Time variability} into consideration.
+	\item Redesigned the existing Supply chain and implemented \textbf{Complete Chain Network Configuration} to incorporate partial flexibility to meet demands.
+\end{itemize}}}
+
+\cventry{Jan '15 - April '15}{Business Model and Commercialization}{Carnegie Mellon University}{Pittsburgh}{\Reportqe{R}}{\newline{}\begin{itemize}
+    \item Technology commercialization of a new product was carried out by modelling both Costs and Demand.
+	\item  Analysis on Market Demand was performed using a Linear Logit model.
+	\item On integration of Supply and Demand, the \textbf{Effective plant size} with the \textbf{Profitable price} were recommended.
+\end{itemize}}}
+
+\cventry{Sept'14 - Oct'14}{All things Financial}{Carnegie Mellon University}{Pittsburgh}{\Reportmkt{R}}{\newline{}\begin{itemize}
+	\item In this project, the correlation of \textbf{stock prices} and their corresponding \textbf{search query} counts was analysed.
+	\item The method serves as a good measure for firms where the end user is the common man.
+\end{itemize}}}
+%-------------------------------
+
+% SKILLS
+%-------------------------------
+\section{Computer skills}
+
+\cvitem{Languages}{Python,  MATLAB, Octave, \LaTeX, R, SQL, Java, C++ }
+\cvitem{Tools}{ Windows, Mac OS, Linux, LabView, Tableau, BIZSIMZ}
+%-------------------------------
+
+% EXTRA-CURRICULAR
+%-------------------------------
+\section{Awards and Leadership}
+
+%\renewcommand{\listitemsymbol}{o~} % Changes the symbol used for lists
+\cvitem{Hackathon}{\textbf{Winners}, conducted by \textit{ENERNOC}. }
+\cvitem{Leadership}{Conducted a workshop at Ranganathan University for students as part of a Mentorship Program.}
+\cvitem{Interests}{Yoga, Golfing, Dancing, Soccer.}
+%-------------------------------
+
+
+
+\clearpage
+\end{document}
